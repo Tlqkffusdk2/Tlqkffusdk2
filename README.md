@@ -1,10 +1,18 @@
-- 👋 Hi, I’m @Tlqkffusdk2
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
 
-<!---
-Tlqkffusdk2/Tlqkffusdk2 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+--->const readline = require("readline");
+const rl = readline.createInterface({
+	input: process.stdin,
+	output: process.stdout
+});
+
+var f = function(a){
+	
+};
+
+rl.on("line", function(line) {
+	console.log(f(line));
+	rl.close();
+}).on("close", function() {
+	process.exit();
+});
+
